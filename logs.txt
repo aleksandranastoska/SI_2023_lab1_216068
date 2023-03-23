@@ -1,0 +1,39 @@
+C:\Users\PC\Desktop\FINKI\IV\Софтверско инженерство\SI_2023_lab1_216068>git log
+commit cc43a759d178acf8e21cb3bdfe76148e0eaf80dd (HEAD -> master, origin/master, origin/bug3, bug3)
+Author: aleksandranastoska <aleksandra.nastoska@outlook.com>
+Date:   Thu Mar 23 19:24:04 2023 +0100
+
+    Fix method sumEvenNumbers
+
+commit 5d34841ba95442401bffa4e26d5c67e98f3c8c60
+Merge: 2c5822a dbbfb66
+Author: aleksandranastoska <aleksandra.nastoska@outlook.com>
+Date:   Thu Mar 23 19:40:31 2023 +0100
+
+    Merge branch 'bug2'
+
+commit dbbfb660c85830b1aca1c1e94efd4b513ea45f4b (origin/bug2, bug2)
+Author: aleksandranastoska <aleksandra.nastoska@outlook.com>
+Date:   Thu Mar 23 19:22:36 2023 +0100
+
+    Fix wrong condition in filterOddNumbers
+
+commit 2c5822a3fac0c852c702a7f5d91a7fe38e2a334e (origin/bug1, bug1)
+Author: aleksandranastoska <aleksandra.nastoska@outlook.com>
+Date:   Thu Mar 23 19:19:52 2023 +0100
+
+    Fix wrong loop for reading
+
+commit f5d4780e26e8d19b1e1b9527bebe47c39b97cd04
+Author: aleksandranastoska <aleksandra.nastoska@outlook.com>
+Date:   Thu Mar 23 19:08:49 2023 +0100
+
+    Add java class
+
+commit 5021e85511fb836bd9436d9d26f1068d0027f2e0
+Author: aleksandranastoska <aleksandra.nastoska@outlook.com>
+Date:   Thu Mar 23 19:02:56 2023 +0100
+
+    Initial commit
+(END)
+
