@@ -1,1 +1,44 @@
-216068
+4. C:\Users\PC\Desktop\FINKI\IV\Софтверско инженерство\SI_2023_lab1_216068>git init
+5. C:\Users\PC\Desktop\FINKI\IV\Софтверско инженерство\SI_2023_lab1_216068>git remote add origin https://github.com/aleksandranastoska/SI_2023_lab1_216068.git
+6. C:\Users\PC\Desktop\FINKI\IV\Софтверско инженерство\SI_2023_lab1_216068>git add README.md
+   C:\Users\PC\Desktop\FINKI\IV\Софтверско инженерство\SI_2023_lab1_216068>git commit -m "Initial commit"
+7. C:\Users\PC\Desktop\FINKI\IV\Софтверско инженерство\SI_2023_lab1_216068>git add SILab1.java
+   C:\Users\PC\Desktop\FINKI\IV\Софтверско инженерство\SI_2023_lab1_216068>git commit -m "Add java class"
+8. C:\Users\PC\Desktop\FINKI\IV\Софтверско инженерство\SI_2023_lab1_216068>git push -u origin master	
+9. C:\Users\PC\Desktop\FINKI\IV\Софтверско инженерство\SI_2023_lab1_216068>git branch bug1
+   C:\Users\PC\Desktop\FINKI\IV\Софтверско инженерство\SI_2023_lab1_216068>git branch bug2
+   C:\Users\PC\Desktop\FINKI\IV\Софтверско инженерство\SI_2023_lab1_216068>git branch bug3
+10. C:\Users\PC\Desktop\FINKI\IV\Софтверско инженерство\SI_2023_lab1_216068>git checkout bug1
+11. C:\Users\PC\Desktop\FINKI\IV\Софтверско инженерство\SI_2023_lab1_216068>git add SILab1.java
+    C:\Users\PC\Desktop\FINKI\IV\Софтверско инженерство\SI_2023_lab1_216068>git commit -m "Fix wrong loop for reading"
+12. C:\Users\PC\Desktop\FINKI\IV\Софтверско инженерство\SI_2023_lab1_216068>git checkout bug2
+13. C:\Users\PC\Desktop\FINKI\IV\Софтверско инженерство\SI_2023_lab1_216068>git add SILab1.java
+    C:\Users\PC\Desktop\FINKI\IV\Софтверско инженерство\SI_2023_lab1_216068>git commit -m "Fix wrong condition in filter OddNumbers"
+14. C:\Users\PC\Desktop\FINKI\IV\Софтверско инженерство\SI_2023_lab1_216068>git checkout bug3
+15. C:\Users\PC\Desktop\FINKI\IV\Софтверско инженерство\SI_2023_lab1_216068>git add SILab1.java
+    C:\Users\PC\Desktop\FINKI\IV\Софтверско инженерство\SI_2023_lab1_216068>git commit -m "Fix method sumEvenNumbers"
+16. C:\Users\PC\Desktop\FINKI\IV\Софтверско инженерство\SI_2023_lab1_216068>git push origin --all
+17. C:\Users\PC\Desktop\FINKI\IV\Софтверско инженерство\SI_2023_lab1_216068>git checkout master
+18. C:\Users\PC\Desktop\FINKI\IV\Софтверско инженерство\SI_2023_lab1_216068>git merge bug1
+	FAST-FORWARD MERGE, нема никакви промени на master гранката кои ги нема на гранката bug1
+19. C:\Users\PC\Desktop\FINKI\IV\Софтверско инженерство\SI_2023_lab1_216068>git push origin --all
+20. C:\Users\PC\Desktop\FINKI\IV\Софтверско инженерство\SI_2023_lab1_216068>git merge bug2
+       рекурзивен merge, нема конфликти, има промени и на гранката master кои ги нема на bug2
+21. C:\Users\PC\Desktop\FINKI\IV\Софтверско инженерство\SI_2023_lab1_216068>git push -u origin --all
+22. C:\Users\PC\Desktop\FINKI\IV\Софтверско инженерство\SI_2023_lab1_216068>git checkout bug3
+23. C:\Users\PC\Desktop\FINKI\IV\Софтверско инженерство\SI_2023_lab1_216068>git rebase master
+    C:\Users\PC\Desktop\FINKI\IV\Софтверско инженерство\SI_2023_lab1_216068>git push --force origin bug3
+24. C:\Users\PC\Desktop\FINKI\IV\Софтверско инженерство\SI_2023_lab1_216068>git checkout master
+25. C:\Users\PC\Desktop\FINKI\IV\Софтверско инженерство\SI_2023_lab1_216068>git merge bug3
+	FAST-FORWARD, сите промени кои ги има на гранката master во однос на гранката bug3 се префрлени и таму, па има празна разлика
+26. C:\Users\PC\Desktop\FINKI\IV\Софтверско инженерство\SI_2023_lab1_216068>git push origin --all
+27. C:\Users\PC\Desktop\FINKI\IV\Софтверско инженерство\SI_2023_lab1_216068>git log
+    C:\Users\PC\Desktop\FINKI\IV\Софтверско инженерство\SI_2023_lab1_216068>git add 216068.txt
+    C:\Users\PC\Desktop\FINKI\IV\Софтверско инженерство\SI_2023_lab1_216068>git add logs.txt
+    C:\Users\PC\Desktop\FINKI\IV\Софтверско инженерство\SI_2023_lab1_216068>git commit -m "Final commit"
+28. C:\Users\PC\Desktop\FINKI\IV\Софтверско инженерство\SI_2023_lab1_216068>git push origin --all
+30. C:\Users\PC\Desktop\FINKI\IV\Софтверско инженерство\SI_2023_lab1_216068>git clone https://github.com/aleksandranastoska/SI2023.git
+31. C:\Users\PC\Desktop\FINKI\IV\Софтверско инженерство\SI_2023_lab1_216068>cd SI2023
+    C:\Users\PC\Desktop\FINKI\IV\Софтверско инженерство\SI_2023_lab1_216068\SI2023>git add 216068.txt
+    C:\Users\PC\Desktop\FINKI\IV\Софтверско инженерство\SI_2023_lab1_216068\SI2023>git commit -m "Add file"
+32. C:\Users\PC\Desktop\FINKI\IV\Софтверско инженерство\SI_2023_lab1_216068\SI2023>git push origin --all
